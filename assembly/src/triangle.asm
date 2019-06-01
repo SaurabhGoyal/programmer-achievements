@@ -29,7 +29,7 @@ done:
     syscall                 ; Perform exit
 
 section .bss
-maxlines equ 20
+maxlines equ 8
 buffersize equ 44
 buffer: resb buffersize
 
