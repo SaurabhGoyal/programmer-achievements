@@ -2,6 +2,8 @@
 # make        # compile and build all binary
 # make clean  # remove ALL binaries and objects
 
+# Makefile inspired by tutorial given at https://opensource.com/article/18/8/what-how-makefile
+
 COMPILER=nasm
 COMPILER_FLAGS=-f macho64
 LINKER=ld
